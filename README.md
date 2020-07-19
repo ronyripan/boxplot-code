@@ -11,7 +11,7 @@ Here in boxplot.ipynb file,
 
 boxplot function takes a list then returns the maximum and minimum numbers of the boxplot distribution of the list.
 in boxplot funtion my code works as follows:
-1. sort the given list
+1. sort the given list.
     sort_score_zero = sorted(dist_list)
 2. find the index value of the "median"
     med1 = np.argwhere(sort_score_zero == np.percentile(sort_score_zero,50,interpolation='nearest'))
